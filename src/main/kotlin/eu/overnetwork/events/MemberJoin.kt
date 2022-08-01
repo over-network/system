@@ -17,7 +17,7 @@ class MemberJoin() : ListenerAdapter() {
         val channel : TextChannel? = jda.getTextChannelById("987700321155448872")
         val verify : String = "<#989851509686693908>"
         val userPB : String? = event.member.avatarUrl
-        val botPB : String ? = jda.selfUser.avatarUrl
+        val botPB : String? = jda.selfUser.avatarUrl
         var embed : EmbedBuilder = EmbedBuilder()
 
         embed.setTitle("Over-Network", "https://over-network.eu")

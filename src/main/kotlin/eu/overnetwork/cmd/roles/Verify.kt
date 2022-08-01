@@ -24,7 +24,7 @@ class Verify : ListenerAdapter() {
 
             if (member != null) {
                 if (member.roles.contains(memberRole)) {
-                    return
+                    // TODO send Embed if user already contains the role
                 } else {
                     if (memberRole != null) {
 
